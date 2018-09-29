@@ -1,0 +1,73 @@
+body {
+     margin: 0;
+    padding: 0;
+    font-family: 'Oswald', courier ;
+}
+
+nav ul{
+    
+    list-style:none;
+    background-color:#4a4a4f;
+    text-align:center;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li{
+    font-size: 1.2em;
+    line-height:40px;
+    height:40px;
+    display:inline-block;
+    margin-left:2.5%;
+}
+
+nav a{
+    text-decoration: none;
+    color:#ffffff;
+    display: block;
+    
+}
+
+
+nav a:hover {
+    background-color: #ffffff;
+    color: #4a4a4f;
+    
+}
+
+nav a:active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+.card{
+    vertical-align
+    float: left;
+    width: 20%;
+    margin-left: 10%;
+    display:inline-block;
+    
+}
+
+.card a {
+    vertical-align: center; 
+    text-align: center;
+
+}
+
+
+img {
+    
+    width: 100%;
+    height: 170px;
+}
+
+h1{
+    text-align: center;
+}
+
+
+.row {
+    width: 100%;
+}
